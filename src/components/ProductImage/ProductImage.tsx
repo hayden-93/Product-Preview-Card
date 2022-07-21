@@ -5,7 +5,7 @@ interface ProductImageProps {
 }
 
 export const ProductImage = ({ alt, className, src }: ProductImageProps) => {
-  const classes = ["", className].join(" ").trim();
+  const classes = ["rounded-t", className].join(" ").trim();
 
   return <img src={src} alt={alt} className={classes} />;
 };
