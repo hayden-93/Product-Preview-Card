@@ -6,7 +6,12 @@ interface DescriptionProps {
 }
 
 export const Description = ({ children, className }: DescriptionProps) => {
-  const classes = ["", className].join(" ").trim();
+  const classes = [
+    "text-neutral-dark-grayish-blue font-display text-sm",
+    className,
+  ]
+    .join(" ")
+    .trim();
 
   return <p className={classes}>{children}</p>;
 };

@@ -6,6 +6,6 @@ interface ButtonProps {
 }
 
 export const Button = ({ children, className }: ButtonProps) => {
-  const classes = ["", className].join(" ").trim();
+  const classes = ["font-display rounded-lg", className].join(" ").trim();
   return <button className={classes}>{children}</button>;
 };
