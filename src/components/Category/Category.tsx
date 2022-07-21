@@ -6,7 +6,12 @@ interface CategoryProps {
 }
 
 export const Category = ({ children, className }: CategoryProps) => {
-  const classes = ["", className].join(" ").trim();
+  const classes = [
+    "text-sm text-neutral-dark-grayish-blue tracking-widest uppercase",
+    className,
+  ]
+    .join(" ")
+    .trim();
 
   return <p className={classes}>{children}</p>;
 };
