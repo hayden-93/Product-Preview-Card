@@ -17,7 +17,10 @@ module.exports = {
         white: "hsl(0, 0%, 100%)",
       },
     },
-
+    fontFamily: {
+      display: ["Montserrat"],
+      body: ["Fraunces"],
+    },
     extend: {
       screens: {
         mobile: "375px",
