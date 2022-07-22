@@ -45,7 +45,7 @@ function App() {
               <img
                 src="../images/icon-cart.svg"
                 alt="Cart Icon"
-                className="flex self-center w-6 h-6"
+                className="self-center w-6 h-6"
               />
               <Button>Add to Cart</Button>
             </div>
